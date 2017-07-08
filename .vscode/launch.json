@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb-mi",
+            "request": "launch",
+            "name": "Debug LLDB",
+            "target": "./target/debug/algorithms",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "type": "gdb",
+            "request": "launch",
+            "name": "Launch Program",
+            "target": "./target/debug/algorithms",
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "name": "Debug",
+            "type": "gdb",
+            "request": "launch",
+            "target": "./target/debug/algorithms",
+            "cwd": "${workspaceRoot}"
+        }
+    ]
+}
