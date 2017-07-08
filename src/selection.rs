@@ -2,7 +2,7 @@ pub fn sort(array: &mut [i64]) {
     for i in 0..array.len() {
         let mut min_found = i;
 
-        for j in i..array.len() {
+        for j in i+1..array.len() {
             if array[j] < array[min_found] {
                 min_found = j;
             }
