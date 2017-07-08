@@ -1,5 +1,3 @@
-use swap;
-
 pub fn sort(array: &mut [i64]) {
     for i in 0..array.len() {
         let mut min_found = i;
@@ -11,7 +9,7 @@ pub fn sort(array: &mut [i64]) {
         }
 
         if array[min_found] < array[i] {
-            swap::swap(array, i, min_found);
+            array.swap(i, min_found);
         }
     }
 }
