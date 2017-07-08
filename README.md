@@ -1,0 +1,2 @@
+# rs-algorithms
+Rust playground
