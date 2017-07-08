@@ -1,4 +1,3 @@
-
 pub fn sort(array: &mut [i64]) {
     for i in 0..array.len() {
         let mut min_found = i;
